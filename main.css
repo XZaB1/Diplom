@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border{
+    -moz-box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+    box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+    background-color: #f6f5f5;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 25px;
+
+
+}
+
+.body1 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a {
+    color: #0071DA;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+p {
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #0071DA;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: #0071DA;
+    border: unset;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.msg {
+    border: 2px solid #ff081d;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logout {
+    color: #0071DA;
+}
+
+.line {
+    max-width: 1320px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 1px solid #e5e5e5;
+}
+
+.PS {
+    font-size: 18px;
+    text-indent: 18px;
+    margin: 20px 0;
+    line-height: 22px;
+}
+.h2-ps{
+    font-family: "Stempel-Garamond-W01-Roman";
+    font-size:28px;
+    letter-spacing:1px;
+    font-weight: 500;
+}
+.button-margin {
+    margin-top: 30px; /* Отступ сверху */
+    margin-bottom: 30px; /* Отступ снизу */
+}
+/* Отступ между вопросами */
+#questions-container > div + div {
+    margin-top: 40px; /* Отступ сверху */
+}
+.result-button-container {
+    display: flex; /* Используем flexbox для позиционирования элементов */
+    align-items: center; /* Выравниваем элементы по вертикали */
+}
+
+.result-button-container #result {
+    margin-right: 10px; /* Отступ справа от результата */
+}
+.scroll{
+    overflow-y: scroll;
+}
